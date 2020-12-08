@@ -1,0 +1,197 @@
+[
+  {
+    "title": "Meditation",
+    "tags": [
+      "mindfulness",
+      "en"
+    ],
+    "image": "https://res.cloudinary.com/dffhi2onp/image/upload/v1607439939/meditation_yhmkyp.png",
+    "smallDescription": "Learn to meditate in just a few minutes a day.",
+    "longDescription": "Start a journey of self-discovery with this beginner-friendly mindfulness challenge. In just 30 days, learn to become a calm, level-headed person with simple daily tasks starting with just 5 minutes meditation.",
+    "author": "30 days",
+    "shortId": "wDoXKrofMI",
+    "likes": 0,
+    "days": [
+      {
+        "dayNumber": "1",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "2",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "3",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "4",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "5",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "6",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "7",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "8",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "9",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "10",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "11",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "12",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "13",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "14",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "15",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "16",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "17",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "18",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "19",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "20",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "21",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "22",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "23",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "24",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "25",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "26",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "27",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "28",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "29",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      },
+      {
+        "dayNumber": "30",
+        "title": "10 minutes meditation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh lacus. Duis volutpat, nibh sed elementum mattis, augue nulla scelerisque odio, ac varius tortor felis vitae massa.",
+        "externalUrl": "https://youtu.be/O-6f5wQXSu8"
+      }
+    ]
+  }
+]

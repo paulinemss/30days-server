@@ -8,6 +8,10 @@ const userSchema = new Schema(
       unique: true,
     },
     password: String,
+    profilePic: {
+      type: String,
+      default: 'https://res.cloudinary.com/dffhi2onp/image/upload/v1606127208/Sans_titre_3_cfj8uo.png'
+    }
   },
   {
     timestamps: true,
