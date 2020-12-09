@@ -11,7 +11,10 @@ const courseSchema = new Schema({
   longDescription: String,
   category: String,
   likes: Number,
-  author: String, 
+  author: {
+    type: Schema.Types.ObjectId,
+    ref: 'User'
+  }, 
   days: [
     {
       dayNumber: Number,

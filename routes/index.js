@@ -26,6 +26,7 @@ router.get('/courses', async (req, res) => {
     const courses = await Course
       .find({}, {days: 0})
       .sort({ likes: -1 })
+      .populate('user')
 
     res.status(200);
     res.json(courses); 
