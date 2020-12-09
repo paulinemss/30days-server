@@ -1,10 +1,7 @@
 [
   {
     "title": "Meditation",
-    "tags": [
-      "mindfulness",
-      "en"
-    ],
+    "category": "mindfulness",
     "image": "https://res.cloudinary.com/dffhi2onp/image/upload/v1607439939/meditation_yhmkyp.png",
     "smallDescription": "Learn to meditate in just a few minutes a day.",
     "longDescription": "Start a journey of self-discovery with this beginner-friendly mindfulness challenge. In just 30 days, learn to become a calm, level-headed person with simple daily tasks starting with just 5 minutes meditation.",

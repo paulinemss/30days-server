@@ -3,10 +3,13 @@ const { Schema, model } = require('mongoose');
 const courseSchema = new Schema({
   title: String,
   shortId: String,
-  image: String,
+  image: {
+    type: String,
+    default: 'https://res.cloudinary.com/dffhi2onp/image/upload/v1607514271/growth-2_nob6is.png'
+  },
   smallDescription: String,
   longDescription: String,
-  tags: [String],
+  category: String,
   likes: Number,
   author: String, 
   days: [
