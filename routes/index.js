@@ -2,6 +2,7 @@ const router = require("express").Router();
 const { nanoid } = require('nanoid');
 const authRoutes = require("./auth");
 const Course = require('../models/Course.model');
+const Challenge = require('../models/Challenge.model');
 
 /* Cloudinary config */
 
@@ -96,8 +97,7 @@ router.put('/courses/edit/:id', upload.single('image'), async (req, res) => {
   } = req.body;
   const days = JSON.parse(req.body.days);
   let image; 
-  const shortId = nanoid(10);
-
+  
   if (req.file) {
     image = req.file.path; 
   }
@@ -177,6 +177,95 @@ router.get('/courses/:id', async (req, res) => {
 
     } else {
       // no course exists
+      res.sendStatus(404);
+    }
+
+  } catch (error) {
+    console.log('error', error);
+    res.sendStatus(400);
+  }
+})
+
+router.post('/challenges/start/:id', async (req, res) => {
+  const { id } = req.params; 
+  const courseId = req.body._id
+  const shortId = nanoid(10);
+
+  console.log('courseId', courseId);
+
+  try {
+
+    const userChallenges = await Challenge
+      .find({ owner: id })
+      .populate('course')
+
+    console.log('userChallenges', userChallenges);
+
+    const existingChallenge = userChallenges.find(challenge => {
+      console.log('challenge.course._id', challenge.course._id)
+      return challenge.course._id.equals(courseId);
+    })
+
+    console.log('existingChallenge', existingChallenge);
+
+    if (existingChallenge) {
+
+      res.status(200);
+      res.json(existingChallenge);
+
+    } else {
+
+      const newChallenge = await Challenge.create({
+        completedDays: [],
+        currentDay: 1,
+        shortId,
+        isPrivate: true,
+        course: courseId,
+        owner: id
+      })
+
+      res.status(200);
+      res.json(newChallenge);
+
+    }
+
+  } catch (error) {
+    console.log('error', error);
+    res.sendStatus(400);
+  }
+})
+
+router.get('/challenges/:id', async (req, res) => {
+  const { id } = req.params; 
+
+  try {
+    
+    const userChallenges = await Challenge
+      .find({ owner: id })
+      .populate('course')
+
+    res.status(200);
+    res.json(userChallenges);
+
+  } catch (error) {
+    console.log('error', error);
+    res.sendStatus(400);
+  }
+})
+
+router.get('/challenges/:id', async (req, res) => {
+  const { id } = req.params; 
+  
+  try {
+    const foundChallenge = await Challenge.findOne({ shortId: id });
+
+    if (foundChallenge) {
+      // a challenge was found
+      res.status(200);
+      res.json(foundChallenge);
+
+    } else {
+      // no challenge exists
       res.sendStatus(404);
     }
 
