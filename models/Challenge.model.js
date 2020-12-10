@@ -2,6 +2,10 @@ const { Schema, model } = require('mongoose');
 
 const challengeSchema = new Schema({
   completedDays: [Number],
+  startDate: {
+    type: Date,
+    default: new Date()
+  },
   currentDay: Number,
   shortId: String,
   isPrivate: {
