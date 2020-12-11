@@ -7,6 +7,10 @@ const courseSchema = new Schema({
     type: String,
     default: 'https://res.cloudinary.com/dffhi2onp/image/upload/v1607514271/growth-2_nob6is.png'
   },
+  isOnline: {
+    type: Boolean,
+    default: true
+  }, 
   smallDescription: String,
   longDescription: String,
   category: String,
