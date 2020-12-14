@@ -178,11 +178,14 @@ router.put('/like/:id', async (req, res) => {
       { likes },
       { new: true }
     );
-
-    const allCourses = await Course.find({ isOnline: true });
+    
+    const courses = await Course
+      .find({ isOnline: true }, { days: 0 })
+      .sort({ likes: -1 })
+      .populate('user')
 
     res.status(200);
-    res.json(allCourses);
+    res.json(courses);
 
   } catch (error) {
 
