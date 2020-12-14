@@ -54,6 +54,10 @@ router.post('/create', upload.single('image'), async (req, res) => {
     let image; 
     if (req.file) { image = req.file.path }
 
+    console.log('req body', req.body)
+    console.log('days', days);
+    console.log('req file', req.file);
+
     if (
       !title ||
       !smallDescription || 
